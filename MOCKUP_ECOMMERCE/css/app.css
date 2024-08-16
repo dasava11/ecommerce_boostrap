@@ -1,0 +1,95 @@
+:root{
+  --bs-blue: #037bc0;
+  --bs-green: #8cbc00
+}
+html{
+  font-size: 62.5%;
+}
+h1, h2, h3{
+  font-family: "Montserrat Alternates",
+    sans-serif;;
+}
+
+.font-app{
+  font-family: "Montserrat Alternates",
+      sans-serif;
+    ;
+}
+
+h1{
+  font-size: 3.8rem;
+}
+@media(min-width: 768px){
+h1{
+  font-size: 5rem;
+}
+}
+
+.category img{
+  transition-property: transform;
+  transition-duration: 300ms;
+}
+
+.category img:hover{
+  transform: scale(1.2);
+
+}
+
+.imgProduct img {
+  transition-property: transform;
+  transition-duration: 300ms;
+}
+
+imgProduct img:hover {
+  transform: scale(1.2);
+
+}
+
+.btn-success:hover {
+  background-color: #006400;
+  border-color: #006400;
+  border-width: 2px;
+  transition-duration: 0.3s;
+  
+}
+
+.galery li:not(:last-of-type){
+  margin-bottom: 1.5rem;
+}
+
+/** colors*/
+
+.text-primary,
+.name-color {
+  color: var(--bs-blue) !important;
+}
+
+.bg-primary {
+  background-color: var(--bs-blue) !important;
+}
+
+.btn-success {
+  background-color: var(--bs-green) !important;
+}
+
+.hero{
+  background-image: url(../img/principal.jpg);
+  height: 25rem;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+@media(min-width:768px){
+  .hero{
+    height: 55rem;
+  }
+}
+
+@media (min-width:768px){
+  .producto img{
+    height: 43rem;
+    width: 100%;
+    object-fit: cover;
+  }
+}
